@@ -18,7 +18,7 @@ use App\Http\Controllers\{
 */
 
 Route::get('/', function () {
-    return route('prabayar.index');
+    return redirect()->route('pascabayars.index');
 });
 
 Route::prefix('pascabayars')->group(function () {
